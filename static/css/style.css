@@ -1,0 +1,13 @@
+.row {
+    width: 100%;
+    margin: auto;
+}
+a {
+    text-decoration: none;
+}
+a.btn-get-started.scrollto {
+    text-decoration: none;
+}
+.service-item.details.stretched-link {
+    text-decoration: none;
+}

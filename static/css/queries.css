@@ -1,0 +1,111 @@
+/* Big tablet to 1200px (widths smaller taht the 1140px row) */
+@media only screen and (max-width: 1200px) {
+    .row { padding: 0 2%; }
+}
+
+
+/* Small tablet to big tablet: from 768px to 1023px */
+@media only screen and (max-width: 1023px) {
+    section { padding: 6rem 0; }
+    
+    blockquote cite { margin-top: 15px; }
+    
+    .old-price::after {
+        top: 10px;
+        width: 43px;
+    }
+    
+    .cta-box div { height: 80px; }
+    .img-30-days { width: 50%; }
+    .img-udemy { width: 65%; }
+    
+    .my-logo img { 
+        height: 65px;
+        margin-bottom: 30px;
+    }
+    
+    
+    
+    
+        
+}
+
+
+
+/* Small phones to small tablets: from 481px to 767px */
+@media only screen and (max-width: 767px) {
+    .hide-mobile { display: none; }
+    section { padding: 4rem 0; }
+    .row { padding: 0 4%; }
+    .col { width: 100%; }
+    
+    
+    
+    
+    
+    
+
+    h3 { margin-bottom: 2rem; }
+        
+    
+        
+    
+    blockquote {
+        padding: 3%;
+        margin-top: 25px;
+    }
+
+    blockquote:before {
+        font-size: 400%;
+        top: 0;
+        left: 1.8%;
+    }
+
+    blockquote cite { margin-top: 15px; }
+    .five-stars { margin-right: 5px; }
+    
+    .call-to-action-row { width: 90%; }
+    .call-to-action-row p { margin-bottom: 10px; }
+
+    .old-price::after {
+        top: 8px;
+        width: 39px;
+    }
+
+    .cta-box { margin-top: 20px; }
+    .cta-box div { height: auto; }
+    .img-30-days { width: 90px; margin-bottom: -8px; }
+    .img-udemy { width: 100px; margin-top: 0; margin-bottom: 5px; }
+    
+
+    .section-ebook p { margin: 20px 10%; }
+    
+    .img-me { 
+        height: 120px;
+        margin-bottom: 20px;
+    }
+    
+    .my-logo img {
+        height: 60px;
+        margin-bottom: 20px;
+        float: none;
+    }
+
+    
+    .social-plugins { margin-top: 20px;}
+    #___plusone_0 { margin-right: 20px !important; }
+    .twitter-share-button { margin-right: 20px; }
+}
+
+
+
+/* Small phones: from 0 to 480px */
+@media only screen and (max-width: 480px) {
+    .macbook { width: 80%; }
+    .list-col-left { width: 10%; }
+    .list-col-right { width: 90%; }
+    #___plusone_0 { margin-right: 10px !important; }
+    .twitter-share-button { margin-right: 10px; }
+
+}
+
